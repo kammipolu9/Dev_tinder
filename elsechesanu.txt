@@ -1,0 +1,7 @@
+folder thisko
+npm init --->package.json ochindhi
+npm i express --->package-lock.json ochindhi
+app.js raasi node app.js ante execute avvudhi
+npm i nodemon --->nodemon package.json lo osthundhi ---> scripts lo start ani nodemon app.js ante auto refresh
+first routes /greet tharuvatha / undali
+
