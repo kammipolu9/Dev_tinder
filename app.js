@@ -1,17 +1,19 @@
-const express = require("express");
+const express = require('express')
 
 const app = express();
 
-app.use("/greet",(req,res)=>{
-    res.send("Greetings for you kamal")
+app.get("/profile",(req,res)=>{
+    res.send("Welcome to profile page")
 })
 
+app.post("/adduser",(req,res)=>{
+    res.send("Added user uuccessfully")
+})
 
 app.use("/",(req,res)=>{
-    res.send("welcome to Root page");
+    res.send("Welcome to Main page")
 })
 
-
 app.listen(8000,()=>{
-    console.log("Server started running request to get response")
+    console.log("Server started running on port 8000");
 })
