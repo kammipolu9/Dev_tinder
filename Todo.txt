@@ -1,0 +1,27 @@
+npm init
+initializes our project asks some conf questions
+
+then package.json is ceated (metadata - index for our project)
+========================================
+src folder created  app.js
+
+========================================
+To create server we need express.js
+npm i express
+then package-lock.json created node_modules folder is created
+
+========================================
+learned routes
+now everytime re-running code after changes makes lagging
+so nodemon required for auto reload-auto refresh the server when modified
+nodemon src\app.js
+we can add in scripts of package.json
+"start" : "node src/app.js"
+so i can execute npm run start
+but only onetime it will execute
+but incase of dev
+"dev" : "nodemon src\app.js"
+auto refresh happens
+
+
+git init
