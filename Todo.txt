@@ -25,3 +25,11 @@ auto refresh happens
 
 
 git init
+
+sat4 *
+su
+mo
+tu  *
+we
+th 
+fr  *
